@@ -1,0 +1,74 @@
+html{
+    background-color: darkgray ;
+    background-image: url(secondresizedvanslogo.jpg);
+    background-repeat: no-repeat ;
+    background-position: bottom right;
+    
+}
+}
+body{
+    font-family: Oswald;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+header{
+    background-color: rgb(169, 202, 112);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    z-index: 1;
+    
+}
+
+div{
+    margin: 100px;
+    width: 300px;
+    height: 100px;
+    
+}
+div:hover{
+    width: 350px;
+    transition: width 2s;
+    transform: scaleY(3);
+    text-shadow: 1px 1px;
+    
+}
+
+.Shoes{
+    border-style: dotted;
+    text-align: center;
+  
+
+
+}
+.banner .Shoes{
+    font-size: 20px;
+    position: absolute;
+    background-color: rgb(169, 202, 112);
+    position: absolute;
+    padding: 20px;
+    bottom: 20px;
+    margin: 0;
+}
+.banner{
+    position: relative;
+}
+
+nav {
+    background-color:rgb(211, 211, 235) ;
+    position: sticky;
+    top: 100px;
+    ;
+}
+nav li{
+    width: 25%;
+    font-size: 18px;
+    display: inline-block;
+    
+
+}
+
